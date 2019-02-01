@@ -1,0 +1,24 @@
+{
+  "name": "elm-music-sampler",
+  "version": "1.0.0",
+  "description": "Elm music sampler",
+  "main": "elm.js",
+  "scripts": {
+    "minify": "uglifyjs elm.js --compress | uglifyjs --mangle --output=elm.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xamedow/elm-music-sampler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xamedow/elm-music-sampler/issues"
+  },
+  "homepage": "https://github.com/xamedow/elm-music-sampler#readme",
+  "dependencies": {
+    "uglify-js": "^3.4.9",
+    "uglifyjs": "^2.4.11"
+  }
+}
